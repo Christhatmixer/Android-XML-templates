@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true"
+    android:background="@color/backdrop_choice"
+    android:nestedScrollingEnabled="false">
+
+
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:context="com.theelitelabel.inspireme.InspireScreen"
+        android:weightSum="2">
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="bottom">
+
+            <ImageButton
+                style="@android:style/ButtonBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/art_button"
+                android:src="@drawable/art1"
+                android:background="@color/backdrop_choice"
+                android:clickable="true"
+                android:layout_gravity="right" />
+
+            <ImageButton
+                style="@android:style/ButtonBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/nature_button"
+                android:src="@drawable/nature"
+                android:background="@color/backdrop_choice"
+                android:clickable="true"
+                android:layout_gravity="right" />
+
+            <ImageButton
+                style="@android:style/ButtonBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/business_button"
+                android:src="@drawable/business"
+                android:background="@color/backdrop_choice"
+                android:clickable="true"
+                android:layout_gravity="right" />
+
+            <ImageButton
+                style="@android:style/ButtonBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/science_button"
+                android:src="@drawable/science"
+                android:background="@color/backdrop_choice"
+                android:clickable="true"
+                android:layout_gravity="right" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="bottom">
+
+            <ImageButton
+                style="@android:style/ButtonBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tech_button"
+                android:background="@color/backdrop_choice"
+                android:src="@drawable/tech"
+                android:clickable="true"
+                android:baselineAlignBottom="false"
+                />
+
+            <ImageButton
+                style="@android:style/ButtonBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/history_button"
+                android:src="@drawable/history"
+                android:background="@color/backdrop_choice"
+                android:clickable="true" />
+
+            <ImageButton
+                style="@android:style/ButtonBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/food_button"
+                android:src="@drawable/food2"
+                android:background="@color/backdrop_choice"
+                android:clickable="true" />
+
+            <ImageButton
+                style="@android:style/ButtonBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/thought_button"
+                android:background="@color/backdrop_choice"
+                android:src="@drawable/thoughts"
+                android:clickable="true"
+                android:baselineAlignBottom="false"
+
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>
